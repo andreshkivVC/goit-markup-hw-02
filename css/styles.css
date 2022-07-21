@@ -1,0 +1,75 @@
+body {
+font-family: Roboto, sans-serif;
+}
+.list{
+  list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+
+.logo{
+ font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: #2196F3;}
+
+/*-----header-----*/
+
+.header-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+}
+.header-tel,
+.header-mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+/*-----essential-----*/
+
+.essential-titel {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.essential-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    color: #FFFFFF;}
+
+/*-----content-----*/
+
+
+.content-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.42;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;}
+
+.content-pre-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    etter-spacing: 0.03em;     
+    color: #757575;
+}

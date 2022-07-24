@@ -7,22 +7,44 @@ font-family: Roboto, sans-serif;
 .link{
     text-decoration: none;
 }
-
+/*-----logo-----*/
 .logo{
  font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: #2196F3;}
+color: #000000;
+;}
+
+.loggo{
+color: #2196F3;
+}
 
 /*-----header-----*/
+
 
 .header-item{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: #212121;
+}
+.header-item-current {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+    .header-item:focus,
+    .header-item:hover{
+color: #2196F3;
+}
+.header-item > .link:focus,
+.header-item>.link:hover{
+color: #2196F3;
 }
 .header-tel,
 .header-mail{
@@ -32,7 +54,6 @@ color: #2196F3;}
     letter-spacing: 0.02em;
     color: #757575;
 }
-
 /*-----essential-----*/
 
 .essential-titel {
@@ -53,7 +74,10 @@ color: #2196F3;}
     text-align: center;
     letter-spacing: 0.06em;
     background: #2196F3;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
 
 /*-----content-----*/
 
@@ -72,4 +96,26 @@ color: #2196F3;}
     line-height: 24px;
     etter-spacing: 0.03em;     
     color: #757575;
+}
+/* --------Портфоліо---------- */
+
+    .filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.65;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #F5F4FA;;
+}
+
+.filter-btn :focus,
+.filter-btn :hover{
+background-color: ;#2196F3
+color:#FFFFFF
+    position: absolute;
+    width: 29px;
+    height: 26px;
+    left: 534px;
+    top: 180px;
 }

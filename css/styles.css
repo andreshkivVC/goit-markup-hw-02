@@ -2,6 +2,7 @@
     --second--title--color: #757575;
 	--main--title--black:#2196F3;
 	--item--color--white:#FFFFFF;
+	--main--item--color:#212121;
 }
 
 body {
@@ -44,7 +45,7 @@ color: var(--second--title--color);
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
-	color:#212121;
+	color:var(--main--item--color);
 }
 
 .header-item-current {
@@ -60,11 +61,15 @@ color: var(--second--title--color);
 	color:var(--main--title--black);
 }
 
-.header-item > .link:focus,
-.header-item > .link:hover {
-	color:var(--main--title--black);
+.header-tel:focus,
+.header-tel:hover{
+	color: var(--main--title--black);
 }
 
+.header-mail:focus,
+.header-mail:hover{
+	color: var(--main--title--black);
+}
 
 /*-----essential-----*/
 
@@ -101,7 +106,7 @@ color: var(--second--title--color);
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #212121;
+	color: var(--main--item--color);
 }
 
 .content-pre-title {
@@ -120,7 +125,7 @@ color: var(--second--title--color);
 	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--main--item--color);
 }
 
 /*----hero------*/
@@ -131,7 +136,7 @@ color: var(--second--title--color);
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color: var(--main--item--color);
 }
 
 .hero-profession {
@@ -189,7 +194,7 @@ color: var(--item--color--white);
 	line-height: 1.65;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: #212121;
+	color:var(--main--item--color);
 	background-color: #f5f4fa;
 	border: none;
 }
@@ -217,11 +222,10 @@ color: var(--item--color--white);
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	color: #212121;
+	color: var(--main--item--color);
 }
 
 .work-pre-title {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;

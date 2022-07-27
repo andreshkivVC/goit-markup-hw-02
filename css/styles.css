@@ -33,8 +33,7 @@ body {
 
 /*-----header-----*/
 
-.header-tel,
-.header-mail{
+.header-lisk{
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -61,13 +60,8 @@ color: var(--second--title--color);
 	color:var(--main--title--black);
 }
 
-.header-tel:focus,
-.header-tel:hover{
-	color: var(--main--title--black);
-}
-
-.header-mail:focus,
-.header-mail:hover{
+.header-lisk:focus,
+.header-lisk:hover{
 	color: var(--main--title--black);
 }
 
@@ -152,8 +146,10 @@ color: var(--second--title--color);
 	background-color: #2f303a;
 }
 .info-item {
+	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
+	letter-spacing: 0.03em;
 }
 
 .info-address {
@@ -166,16 +162,17 @@ color: var(--second--title--color);
 	color: rgba(255, 255, 255, 0.6);
 }
 .logo-contacts{
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-color: var(--item--color--white);
+	font-family: 'Raleway';	
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--item--color--white);
 }
 
 /* --------Портфоліо---------- */
 
-.Potfolio-title{
+.potfolio-title{
 	position: absolute;
 	white-space: nowrap;
 	width: 1px;
@@ -197,18 +194,12 @@ color: var(--item--color--white);
 	color:var(--main--item--color);
 	background-color: #f5f4fa;
 	border: none;
+	cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	text-align: center;
-	letter-spacing: 0.03em;
 	color: var(--item--color--white);
 	background-color:var(--main--title--black);
-	cursor: pointer;
-	border: none;
 }
 .work-item {
 	font-weight: 700;
@@ -226,6 +217,7 @@ color: var(--item--color--white);
 }
 
 .work-pre-title {
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
